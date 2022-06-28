@@ -1,0 +1,144 @@
+.img{
+    display: inline-block;
+    width: 15.7%;
+    margin-left: 5px;
+    height: 1%;
+  
+}
+.container{
+    margin-top: 4%;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 8%;
+    background:rgb(22, 21, 21);
+    overflow: hidden;
+  }
+.logo{
+    position: fixed;
+    top: opx;
+    left: 10%;
+}
+    
+.li{
+    
+    list-style-type: none;
+    display: inline;
+    margin-left: 4%;
+}
+    
+.navigation{
+     
+    margin-left: 40%;
+}
+.element{
+    font-size: 20px;
+    color:yellow;
+    padding: 5px;
+    font-family: cursive;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.5);
+}
+.element:hover{
+    color: hsl(187, 52%, 72%);
+    background-color: rgb(248, 103, 6);
+    border-radius: 5px; 
+    transition-duration: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+    box-shadow: 7px 7px 4px rgba(0,0,0,0.6);
+    border-radius: 3px;
+}
+.row{
+    margin-top: 1%;
+}
+
+@media only screen and (max-width:877px) {
+    .img{
+        width: 30%;
+        margin-left: 4px;
+    }
+    img{
+        box-shadow: 5px 5px 3px rgba(0,0,0,0.6);
+        border-radius: 2px;
+    }
+}
+@media only screen and (min-width:430px) and (max-width:655px) {
+    .element{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .navigation{
+     
+        margin-left: 30%;
+    }
+    .header{
+        height: 7%;
+    }
+    .logo{
+        left: 1%;
+    }
+        
+    .li{
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width:430px) {
+    .element{
+        font-size: 10px;
+        padding: 3px;
+    }
+    .navigation{
+     
+        margin-left: 22%;
+    }
+    .header{
+        height: 7%;
+    }
+    .logo{
+        left:1px;
+    }
+        
+    .li{
+        margin-left: 2%;
+    }
+}
+@media only screen and (min-width:950px) and (max-width:1310px) {
+    .container{
+        margin-top: 6%;
+    }
+}
+@media only screen and (min-width:820px) and (max-width:950px) {
+    .container{
+        margin-top: 7%;
+    }
+}
+@media only screen and (min-width:550px) and (max-width:820px) {
+    .container{
+        margin-top: 9%;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:550px) {
+    .container{
+        margin-top: 12%;
+    }
+}
+@media only screen and (min-width:353px) and (max-width:420px) {
+    .container{
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width:353px){
+    .container{
+        margin-top: 19%;
+    }
+}
